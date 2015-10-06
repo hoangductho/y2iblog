@@ -48,3 +48,800 @@ REQUEST_URI=/yii/blog/
 in /var/www/html/yii/blog/protected/views/layouts/main.php (51)
 in /var/www/html/yii/blog/protected/views/layouts/column1.php (6)
 in /var/www/html/yii/blog/protected/controllers/SiteController.php (32)
+2015/10/06 10:49:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/blog/setup
+---
+2015/10/06 10:49:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup
+---
+2015/10/06 10:50:21 [error] [exception.CException] exception 'CException' with message 'SetupController cannot find the requested view "index".' in /var/www/html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/html/yii/blog/protected/controllers/SetupController.php(38): CController->render('index')
+#2 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SetupController->actionIndex()
+#3 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#8 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/setup
+---
+2015/10/06 10:50:51 [error] [exception.CException] exception 'CException' with message 'SetupController cannot find the requested view "index".' in /var/www/html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/html/yii/blog/protected/controllers/SetupController.php(38): CController->render('index')
+#2 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SetupController->actionIndex()
+#3 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#8 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/setup
+---
+2015/10/06 10:53:49 [error] [exception.CException] exception 'CException' with message 'SetupController cannot find the requested view "login".' in /var/www/html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
+#1 /var/www/html/yii/blog/protected/controllers/SetupController.php(104): CController->render('login', Array)
+#2 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SetupController->actionLogin()
+#3 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#7 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/login')
+#8 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/setup/login
+---
+2015/10/06 10:56:35 [error] [exception.CException] exception 'CException' with message 'SetupController cannot find the requested view "login".' in /var/www/html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
+#1 /var/www/html/yii/blog/protected/controllers/SetupController.php(104): CController->render('login', Array)
+#2 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SetupController->actionLogin()
+#3 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#7 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/login')
+#8 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/setup/login
+---
+2015/10/06 10:57:26 [error] [exception.CException] exception 'CException' with message 'SetupController cannot find the requested view "login".' in /var/www/html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
+#1 /var/www/html/yii/blog/protected/controllers/SetupController.php(104): CController->render('login', Array)
+#2 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SetupController->actionLogin()
+#3 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#7 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/login')
+#8 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/setup/login
+---
+2015/10/06 11:03:15 [error] [exception.CException] exception 'CException' with message 'SetupController cannot find the requested view "contact".' in /var/www/html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('contact', Array, true)
+#1 /var/www/html/yii/blog/protected/controllers/SetupController.php(78): CController->render('contact', Array)
+#2 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SetupController->actionContact()
+#3 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#7 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/contact')
+#8 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/setup/contact
+---
+2015/10/06 11:03:29 [error] [exception.CException] exception 'CException' with message 'SetupController cannot find the requested view "contact".' in /var/www/html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('contact', Array, true)
+#1 /var/www/html/yii/blog/protected/controllers/SetupController.php(78): CController->render('contact', Array)
+#2 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SetupController->actionContact()
+#3 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#7 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/contact')
+#8 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/blog/setup/contact
+---
+2015/10/06 11:04:38 [error] [exception.CException] exception 'CException' with message 'SetupController cannot find the requested view "index".' in /var/www/html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/html/yii/blog/protected/controllers/SetupController.php(38): CController->render('index')
+#2 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): SetupController->actionIndex()
+#3 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#8 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/blog/setup
+---
+2015/10/06 11:08:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup
+---
+2015/10/06 11:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup
+---
+2015/10/06 11:12:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup
+---
+2015/10/06 11:12:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup
+---
+2015/10/06 11:12:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup
+---
+2015/10/06 14:12:16 [error] [exception.CException] exception 'CException' with message 'Alias "application.modules.setup.User" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/html/yii/framework/YiiBase.php:323
+Stack trace:
+#0 /var/www/html/yii/framework/gii/generators/crud/CrudCode.php(59): YiiBase::import('application.mod...', true)
+#1 /var/www/html/yii/framework/validators/CInlineValidator.php(42): CrudCode->validateModel('model', Array)
+#2 /var/www/html/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute(Object(CrudCode), 'model')
+#3 /var/www/html/yii/framework/base/CModel.php(159): CValidator->validate(Object(CrudCode), NULL)
+#4 /var/www/html/yii/framework/gii/CCodeGenerator.php(159): CModel->validate()
+#5 /var/www/html/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#11 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#12 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/blog/gii/crud/index
+HTTP_REFERER=http://localhost/yii/blog/gii/crud/index
+---
+2015/10/06 14:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup
+---
+2015/10/06 14:40:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup
+---
+2015/10/06 14:47:39 [error] [php] Argument 1 passed to CDbCommand::__construct() must be an instance of CDbConnection, none given, called in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php on line 17 and defined (/var/www/html/yii/framework/db/CDbCommand.php:100)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 14:48:51 [error] [php] Argument 1 passed to Setup::__construct() must be an instance of CDbConnection, none given, called in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php on line 17 and defined (/var/www/html/yii/blog/protected/modules/setup/models/Setup.php:11)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (11)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 14:49:03 [error] [php] Argument 1 passed to CDbCommand::__construct() must be an instance of CDbConnection, none given, called in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php on line 12 and defined (/var/www/html/yii/framework/db/CDbCommand.php:100)
+Stack trace:
+#0 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#1 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#3 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#5 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (12)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 14:53:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.Setup' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `Setup`.
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 14:53:04 [error] [exception.CDbException] exception 'CDbException' with message 'The table "Setup" for active record class "Setup" cannot be found in the database.' in /var/www/html/yii/framework/db/ar/CActiveRecord.php:2385
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Setup))
+#1 /var/www/html/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(17): CActiveRecord->__construct()
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#9 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/setup
+HTTP_REFERER=http://localhost/yii/setup
+---
+2015/10/06 14:54:13 [error] [php] Argument 1 passed to CDbCommand::__construct() must be an instance of CDbConnection, none given, called in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php on line 12 and defined (/var/www/html/yii/framework/db/CDbCommand.php:100)
+Stack trace:
+#0 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#1 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#3 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#5 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (12)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 14:54:25 [error] [php] Undefined variable: table (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:57)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (57)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (19)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 14:54:45 [error] [exception.CException] exception 'CException' with message 'CDbConnection and its behaviors do not have a method or closure named "execute".' in /var/www/html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(47): CComponent->__call('execute', Array)
+#1 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(47): CDbConnection->execute('CREATE TABLE IF...')
+#2 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(65): Setup->_create_table('account', Array)
+#3 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(19): Setup->create(Array)
+#4 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#5 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#9 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#10 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/setup
+HTTP_REFERER=http://localhost/yii/setup
+---
+2015/10/06 14:55:20 [error] [exception.CException] exception 'CException' with message 'CDbConnection and its behaviors do not have a method or closure named "query".' in /var/www/html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(47): CComponent->__call('query', Array)
+#1 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(47): CDbConnection->query('CREATE TABLE IF...')
+#2 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(65): Setup->_create_table('account', Array)
+#3 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(19): Setup->create(Array)
+#4 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#5 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#9 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#10 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/setup
+HTTP_REFERER=http://localhost/yii/setup
+---
+2015/10/06 14:57:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'create DATETIME NOT NULL DEFAULT(GETDATE()),CONSTRAINT aid PRIMARY KEY (_id))' at line 1. The SQL statement executed was: CREATE TABLE IF NOT EXISTS account (_id int NOT NULL AUTO_INCREMENT,username varchar(32) NOT NULL UNIQUE,password char(64) NOT NULL,status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending',create DATETIME NOT NULL DEFAULT(GETDATE()),CONSTRAINT aid PRIMARY KEY (_id)).
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (51)
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (69)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (19)
+2015/10/06 14:57:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'create DATETIME NOT NULL DEFAULT(GETDATE()),CONSTRAINT aid PRIMARY KEY (_id))' at line 1. The SQL statement executed was: CREATE TABLE IF NOT EXISTS account (_id int NOT NULL AUTO_INCREMENT,username varchar(32) NOT NULL UNIQUE,password char(64) NOT NULL,status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending',create DATETIME NOT NULL DEFAULT(GETDATE()),CONSTRAINT aid PRIMARY KEY (_id))' in /var/www/html/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(51): CDbCommand->execute()
+#1 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(69): Setup->_create_table('account', Array)
+#2 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(19): Setup->create(Array)
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#9 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/setup
+HTTP_REFERER=http://localhost/yii/setup
+---
+2015/10/06 14:59:30 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CONSTRAINT aid PRIMARY KEY (_id))' at line 1. The SQL statement executed was: CREATE TABLE IF NOT EXISTS account (_id int NOT NULL AUTO_INCREMENT,username varchar(32) NOT NULL UNIQUE,password char(64) NOT NULL,status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending',created TIMESTAMP DEFAULT CURRENT_TIMESTAMP),CONSTRAINT aid PRIMARY KEY (_id)).
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (51)
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (69)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (19)
+2015/10/06 14:59:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CONSTRAINT aid PRIMARY KEY (_id))' at line 1. The SQL statement executed was: CREATE TABLE IF NOT EXISTS account (_id int NOT NULL AUTO_INCREMENT,username varchar(32) NOT NULL UNIQUE,password char(64) NOT NULL,status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending',created TIMESTAMP DEFAULT CURRENT_TIMESTAMP),CONSTRAINT aid PRIMARY KEY (_id))' in /var/www/html/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(51): CDbCommand->execute()
+#1 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(69): Setup->_create_table('account', Array)
+#2 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(19): Setup->create(Array)
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#9 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/setup
+HTTP_REFERER=http://localhost/yii/setup
+---
+2015/10/06 15:00:14 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' CONSTRAINT aid PRIMARY KEY (_id))' at line 1. The SQL statement executed was: CREATE TABLE IF NOT EXISTS account (_id int NOT NULL AUTO_INCREMENT, username varchar(32) NOT NULL UNIQUE, password char(64) NOT NULL, status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending', created TIMESTAMP DEFAULT CURRENT_TIMESTAMP), CONSTRAINT aid PRIMARY KEY (_id)).
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (51)
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (69)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (19)
+2015/10/06 15:00:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' CONSTRAINT aid PRIMARY KEY (_id))' at line 1. The SQL statement executed was: CREATE TABLE IF NOT EXISTS account (_id int NOT NULL AUTO_INCREMENT, username varchar(32) NOT NULL UNIQUE, password char(64) NOT NULL, status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending', created TIMESTAMP DEFAULT CURRENT_TIMESTAMP), CONSTRAINT aid PRIMARY KEY (_id))' in /var/www/html/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(51): CDbCommand->execute()
+#1 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(69): Setup->_create_table('account', Array)
+#2 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(19): Setup->create(Array)
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#9 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/setup
+HTTP_REFERER=http://localhost/yii/setup
+---
+2015/10/06 15:03:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(GETDATE()), CONSTRAINT rid PRIMARY KEY (_id))' at line 1. The SQL statement executed was: CREATE TABLE IF NOT EXISTS role (_id int NOT NULL AUTO_INCREMENT, rolename varchar(16) NOT NULL UNIQUE, description TINYTEXT, created DATETIME NOT NULL DEFAULT(GETDATE()), CONSTRAINT rid PRIMARY KEY (_id)).
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (51)
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (69)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (19)
+2015/10/06 15:03:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(GETDATE()), CONSTRAINT rid PRIMARY KEY (_id))' at line 1. The SQL statement executed was: CREATE TABLE IF NOT EXISTS role (_id int NOT NULL AUTO_INCREMENT, rolename varchar(16) NOT NULL UNIQUE, description TINYTEXT, created DATETIME NOT NULL DEFAULT(GETDATE()), CONSTRAINT rid PRIMARY KEY (_id))' in /var/www/html/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(51): CDbCommand->execute()
+#1 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(69): Setup->_create_table('role', Array)
+#2 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(19): Setup->create(Array)
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#9 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/setup
+HTTP_REFERER=http://localhost/yii/setup
+---
+2015/10/06 15:04:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(GETDATE()), CONSTRAINT rid PRIMARY KEY (_id))' at line 1. The SQL statement executed was: CREATE TABLE IF NOT EXISTS role (_id int NOT NULL AUTO_INCREMENT, rolename varchar(16) NOT NULL UNIQUE, description TINYTEXT, created DATETIME NOT NULL DEFAULT(GETDATE()), CONSTRAINT rid PRIMARY KEY (_id)).
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (51)
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (71)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (19)
+2015/10/06 15:04:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(GETDATE()), CONSTRAINT rid PRIMARY KEY (_id))' at line 1. The SQL statement executed was: CREATE TABLE IF NOT EXISTS role (_id int NOT NULL AUTO_INCREMENT, rolename varchar(16) NOT NULL UNIQUE, description TINYTEXT, created DATETIME NOT NULL DEFAULT(GETDATE()), CONSTRAINT rid PRIMARY KEY (_id))' in /var/www/html/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(51): CDbCommand->execute()
+#1 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(71): Setup->_create_table('role', Array)
+#2 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(19): Setup->create(Array)
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#9 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/setup
+HTTP_REFERER=http://localhost/yii/setup
+---
+2015/10/06 15:26:53 [error] [exception.CException] exception 'CException' with message 'Property "CDbDataReader._statement" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(53): CComponent->__get('_statement')
+#1 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(71): Setup->_create_table('account', Array)
+#2 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(19): Setup->create(Array)
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#9 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/setup
+HTTP_REFERER=http://localhost/yii/setup
+---
+2015/10/06 15:28:27 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /var/www/html/yii/framework/db/CDbDataReader.php:121
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbDataReader.php(121): PDOStatement->fetchAll()
+#1 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(53): CDbDataReader->readAll()
+#2 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(71): Setup->_create_table('account', Array)
+#3 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(19): Setup->create(Array)
+#4 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#5 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#9 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#10 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/setup
+HTTP_REFERER=http://localhost/yii/setup
+---
+2015/10/06 15:36:11 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'account' already exists. The SQL statement executed was: CREATE TABLE  account (_id int NOT NULL AUTO_INCREMENT, username varchar(32) NOT NULL UNIQUE, password char(64) NOT NULL, status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending', created TIMESTAMP DEFAULT CURRENT_TIMESTAMP, CONSTRAINT aid PRIMARY KEY (_id)).
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (51)
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (71)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (19)
+2015/10/06 15:36:58 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'account' already exists. The SQL statement executed was: CREATE TABLE  account (_id int NOT NULL AUTO_INCREMENT, username varchar(32) NOT NULL UNIQUE, password char(64) NOT NULL, status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending', created TIMESTAMP DEFAULT CURRENT_TIMESTAMP, CONSTRAINT aid PRIMARY KEY (_id)).
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (51)
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (71)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (19)
+2015/10/06 15:37:19 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'account' already exists. The SQL statement executed was: CREATE TABLE  account (_id int NOT NULL AUTO_INCREMENT, username varchar(32) NOT NULL UNIQUE, password char(64) NOT NULL, status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending', created TIMESTAMP DEFAULT CURRENT_TIMESTAMP, CONSTRAINT aid PRIMARY KEY (_id)).
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (51)
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (71)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (19)
+2015/10/06 15:38:10 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'account' already exists. The SQL statement executed was: CREATE TABLE  account (_id int NOT NULL AUTO_INCREMENT, username varchar(32) NOT NULL UNIQUE, password char(64) NOT NULL, status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending', created TIMESTAMP DEFAULT CURRENT_TIMESTAMP, CONSTRAINT aid PRIMARY KEY (_id)).
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (51)
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (71)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (19)
+2015/10/06 15:40:25 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'account' already exists. The SQL statement executed was: CREATE TABLE  account (_id int NOT NULL AUTO_INCREMENT, username varchar(32) NOT NULL UNIQUE, password char(64) NOT NULL, status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending', created TIMESTAMP DEFAULT CURRENT_TIMESTAMP, CONSTRAINT aid PRIMARY KEY (_id)).
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (51)
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (68)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+2015/10/06 15:41:43 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'account' already exists. The SQL statement executed was: CREATE TABLE  account (_id int NOT NULL AUTO_INCREMENT, username varchar(32) NOT NULL UNIQUE, password char(64) NOT NULL, status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending', created TIMESTAMP DEFAULT CURRENT_TIMESTAMP, CONSTRAINT aid PRIMARY KEY (_id)).
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (51)
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (71)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+2015/10/06 15:42:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'account' already exists. The SQL statement executed was: CREATE TABLE  account (_id int NOT NULL AUTO_INCREMENT, username varchar(32) NOT NULL UNIQUE, password char(64) NOT NULL, status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending', created TIMESTAMP DEFAULT CURRENT_TIMESTAMP, CONSTRAINT aid PRIMARY KEY (_id)).
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (51)
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (71)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+2015/10/06 15:42:46 [error] [php] Array to string conversion (/var/www/html/yii/blog/protected/modules/setup/models/Setup.php:75)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (75)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 15:43:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'account' already exists. The SQL statement executed was: CREATE TABLE  account (_id int NOT NULL AUTO_INCREMENT, username varchar(32) NOT NULL UNIQUE, password char(64) NOT NULL, status ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending', created TIMESTAMP DEFAULT CURRENT_TIMESTAMP, CONSTRAINT aid PRIMARY KEY (_id)).
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (51)
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (71)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+2015/10/06 16:02:29 [error] [php] Undefined property: CException::$errorInfo (/var/www/html/yii/blog/protected/modules/setup/models/Setup.php:74)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (74)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:12:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.{account}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{account}`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:12:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.{role}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{role}`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:12:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.{user_role}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{user_role}`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:12:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.{account}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{account}`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:12:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.{role}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{role}`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:12:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.{user_role}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{user_role}`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:13:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.{account}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{account}`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:13:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.{role}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{role}`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:13:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.{user_role}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{user_role}`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:13:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.{{account}}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{{account}}`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:13:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.{{account}}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{{account}}`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:13:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.{{account}}' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `{{account}}`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:14:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.myacc' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `myacc`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:14:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.myacc' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `myacc`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:14:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.myacc' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `myacc`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (70)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (17)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/account".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/account')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup/account
+---
+2015/10/06 16:32:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/account".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/account')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup/account
+---
+2015/10/06 16:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/account".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/account')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup/account
+---
+2015/10/06 16:33:10 [error] [php] include(User.php): failed to open stream: No such file or directory (/var/www/html/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(395): spl_autoload_call()
+#1 /var/www/html/yii/framework/web/CActiveDataProvider.php(165): model()
+#2 /var/www/html/yii/framework/web/CActiveDataProvider.php(87): CActiveDataProvider->getModel()
+#3 /var/www/html/yii/blog/protected/controllers/UserController.php(125): CActiveDataProvider->__construct()
+#4 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#5 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): UserController->runAction()
+#7 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#9 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): UserController->filterAccessControl()
+#10 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#11 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#12 /var/www/html/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#13 /var/www/html/yii/framework/web/CWebApplication.php(282): UserController->run()
+#14 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#15 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/user
+in /var/www/html/yii/blog/protected/controllers/UserController.php (125)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:33:22 [error] [php] include(User.php): failed to open stream: No such file or directory (/var/www/html/yii/framework/YiiBase.php:432)
+Stack trace:
+#0 /var/www/html/yii/framework/db/ar/CActiveRecord.php(395): spl_autoload_call()
+#1 /var/www/html/yii/framework/web/CActiveDataProvider.php(165): model()
+#2 /var/www/html/yii/framework/web/CActiveDataProvider.php(87): CActiveDataProvider->getModel()
+#3 /var/www/html/yii/blog/protected/controllers/UserController.php(125): CActiveDataProvider->__construct()
+#4 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#5 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /var/www/html/yii/framework/web/filters/CFilterChain.php(133): UserController->runAction()
+#7 /var/www/html/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/html/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#9 /var/www/html/yii/framework/web/filters/CInlineFilter.php(58): UserController->filterAccessControl()
+#10 /var/www/html/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#11 /var/www/html/yii/framework/web/CController.php(291): CFilterChain->run()
+#12 /var/www/html/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#13 /var/www/html/yii/framework/web/CWebApplication.php(282): UserController->run()
+#14 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#15 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/blog/user
+in /var/www/html/yii/blog/protected/controllers/UserController.php (125)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:33:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/account".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/account')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup/account
+---
+2015/10/06 16:34:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/account".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/account')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/blog/setup/account
+---
+2015/10/06 16:34:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/account".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/account')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/blog/setup/account
+---
+2015/10/06 16:34:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/account".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/account')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/blog/setup/account
+---
+2015/10/06 16:34:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/account".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/account')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/blog/setup/account
+---
+2015/10/06 16:34:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/account".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/account')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/blog/setup/account
+---
+2015/10/06 16:50:59 [error] [php] Use of undefined constant db - assumed 'db' (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:79)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/blog/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (79)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (62)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:51:10 [error] [php] Cannot modify header information - headers already sent by (output started at /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:79) (/var/www/html/yii/framework/web/CHttpRequest.php:860)
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(62): DefaultController->redirect()
+#1 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#2 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#4 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#5 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#6 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/blog/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (62)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 16:51:29 [error] [php] Cannot modify header information - headers already sent by (output started at /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:79) (/var/www/html/yii/framework/web/CHttpRequest.php:860)
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(62): DefaultController->redirect()
+#1 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#2 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#4 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#5 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#6 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/blog/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (62)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 17:19:03 [error] [php] Cannot modify header information - headers already sent by (output started at /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:97) (/var/www/html/yii/framework/web/CHttpRequest.php:860)
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(80): DefaultController->redirect()
+#1 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionTable()
+#2 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#4 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#5 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#6 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/blog/setup/default/table
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (80)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 17:19:22 [error] [php] Cannot modify header information - headers already sent by (output started at /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:97) (/var/www/html/yii/framework/web/CHttpRequest.php:860)
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(80): DefaultController->redirect()
+#1 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionTable()
+#2 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#4 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#5 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#6 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/blog/setup/default/table
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (80)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/06 17:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "setup".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('setup')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('setup')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/default/s...')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/blog/setup/default/setup/default/account
+---
+2015/10/06 17:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "setup".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('setup')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('setup')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/default/s...')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/setup/default/setup/default/account
+---
