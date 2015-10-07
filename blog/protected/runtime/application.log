@@ -845,3 +845,1199 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/yii/setup/default/setup/default/account
 ---
+2015/10/07 08:51:44 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (91)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 08:51:44 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (91)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 08:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/setup/default/table".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/setup/def...')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup/setup/default/table
+---
+2015/10/07 08:57:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (91)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:09:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (91)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:10:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (91)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:20:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:20:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:20:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:20:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:20:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:21:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:24:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (98)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:25:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (98)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:25:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (98)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:26:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (98)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:27:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (98)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:28:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (98)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:29:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (98)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:29:02 [error] [php] Object of class SetupModule could not be converted to string (/var/www/html/yii/blog/protected/modules/setup/views/default/index.php:13)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(869): DefaultController->renderFile()
+#1 /var/www/html/yii/framework/web/CController.php(782): DefaultController->renderPartial()
+#2 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(109): DefaultController->render()
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionTable()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#6 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#7 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#8 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup/default/table
+in /var/www/html/yii/blog/protected/modules/setup/views/default/index.php (13)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (109)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:29:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (98)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:30:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (98)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:32:08 [error] [php] Trying to get property of non-object (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:15)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#3 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup/default/table
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (15)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:32:41 [error] [php] Trying to get property of non-object (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:15)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#3 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup/default/table
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (15)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:32:50 [error] [php] Trying to get property of non-object (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:15)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#1 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#2 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#3 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup/default/table
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (15)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:33:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:33:53 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /var/www/html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(114): CController->render('index')
+#2 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionTable()
+#3 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('table')
+#7 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/default/t...')
+#8 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/setup/default/table
+---
+2015/10/07 09:34:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:34:17 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in /var/www/html/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(114): CController->render('index')
+#2 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionTable()
+#3 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('table')
+#7 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/default/t...')
+#8 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/setup/default/table
+---
+2015/10/07 09:35:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (98)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:35:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (98)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:37:23 [error] [php] Missing argument 1 for CController::__construct(), called in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php on line 12 and defined (/var/www/html/yii/framework/web/CController.php:110)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(338): CWebApplication->createController()
+#1 /var/www/html/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup/default/table
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (12)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:37:39 [error] [php] Wrong parameter count for var_dump() (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:96)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup/default/table
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (96)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:38:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:39:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (88)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:42:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (89)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:42:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (89)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:43:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:44:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:45:09 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:45:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:47:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:47:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:52:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:53:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:53:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:53:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:53:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:53:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:53:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:53:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:53:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:53:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:54:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:54:51 [error] [exception.CException] exception 'CException' with message 'The layout path "/var/www/html/yii/blog/protected/modules/setup/views/layouts/setup" is not a valid directory.' in /var/www/html/yii/framework/web/CWebModule.php:161
+Stack trace:
+#0 /var/www/html/yii/framework/base/CComponent.php(152): CWebModule->setLayoutPath('/var/www/html/y...')
+#1 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(13): CComponent->__set('layoutPath', '/var/www/html/y...')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(359): DefaultController->__construct('default', Object(SetupModule))
+#3 /var/www/html/yii/framework/web/CWebApplication.php(338): CWebApplication->createController('default/table/', Object(SetupModule))
+#4 /var/www/html/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('setup/default/t...')
+#5 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/default/t...')
+#6 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii/setup/default/table
+---
+2015/10/07 09:55:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:56:09 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (103)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:56:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 09:58:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:02:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:02:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:02:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:02:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:02:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:02:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:02:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:02:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:03:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:03:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:03:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:04:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:07:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:09:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:16:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:16:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/setupmod.css".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/setupmod.cs...')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/blog/css/setupmod.css
+HTTP_REFERER=http://localhost/yii/setup/default/table
+---
+2015/10/07 10:21:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:21:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/setupmod.css".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/setupmod.cs...')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/blog/css/setupmod.css
+HTTP_REFERER=http://localhost/yii/setup/default/table
+---
+2015/10/07 10:22:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:22:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/setupmod.css".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/setupmod.cs...')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/blog/css/setupmod.css
+HTTP_REFERER=http://localhost/yii/setup/default/table
+---
+2015/10/07 10:22:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:23:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:23:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:23:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in /var/www/html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(270): CController->missingAction('css')
+#1 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('css')
+#2 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/default/c...')
+#3 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/setup/default/css/setupmod.css
+HTTP_REFERER=http://localhost/yii/setup/default/table
+---
+2015/10/07 10:24:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:24:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:25:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:27:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:27:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/css/setupmod.css".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/css/setup...')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup/css/setupmod.css
+HTTP_REFERER=http://localhost/yii/setup/default/table
+---
+2015/10/07 10:28:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:28:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/css/setupmod.css".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/css/setup...')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup/css/setupmod.css
+HTTP_REFERER=http://localhost/yii/setup/default/table
+---
+2015/10/07 10:29:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/css/setupmod.css".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/css/setup...')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup/css/setupmod.css
+HTTP_REFERER=http://localhost/yii/setup/default/table
+---
+2015/10/07 10:41:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:41:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/css/setupmod.css".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/css/setup...')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup/css/setupmod.css
+HTTP_REFERER=http://localhost/yii/setup/default/table
+---
+2015/10/07 10:44:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:47:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:47:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:51:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:52:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:52:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:53:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:54:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:54:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:54:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:54:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:58:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 10:58:54 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:01:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:01:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:04:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:04:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:08:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:09:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:10:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:10:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:10:42 [error] [php] Undefined variable: baseUrl (/var/www/html/yii/blog/protected/modules/setup/views/layouts/setup.php:2)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(784): DefaultController->renderFile()
+#1 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(112): DefaultController->render()
+#2 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionTable()
+#3 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#5 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#6 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#7 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup/default/table
+in /var/www/html/yii/blog/protected/modules/setup/views/layouts/setup.php (2)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (112)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:12:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:15:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:15:37 [error] [exception.CException] exception 'CException' with message 'Property "DefaultController.basePath" is not defined.' in /var/www/html/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/views/layouts/setup.php(2): CComponent->__get('basePath')
+#1 /var/www/html/yii/framework/web/CBaseController.php(126): require('/var/www/html/y...')
+#2 /var/www/html/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/y...', Array, true)
+#3 /var/www/html/yii/framework/web/CController.php(784): CBaseController->renderFile('/var/www/html/y...', Array, true)
+#4 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(112): CController->render('table', Array)
+#5 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionTable()
+#6 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('table')
+#10 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/default/t...')
+#11 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/setup/default/table
+---
+2015/10/07 11:15:54 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:18:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:24:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:25:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:25:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:25:57 [error] [php] Missing argument 1 for CModule::getModule(), called in /var/www/html/yii/framework/base/CComponent.php on line 111 and defined (/var/www/html/yii/framework/base/CModule.php:269)
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/views/layouts/setup.php(2): CWebApplication->__get()
+#1 /var/www/html/yii/framework/web/CBaseController.php(126): require()
+#2 /var/www/html/yii/framework/web/CBaseController.php(95): DefaultController->renderInternal()
+#3 /var/www/html/yii/framework/web/CController.php(784): DefaultController->renderFile()
+#4 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(112): DefaultController->render()
+#5 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionTable()
+#6 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#8 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#9 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#10 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup/default/table
+in /var/www/html/yii/blog/protected/modules/setup/views/layouts/setup.php (2)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (112)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:26:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:26:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:27:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:29:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:34:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:34:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:38:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:39:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:40:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:40:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:41:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:41:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:41:49 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:46:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:47:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:49:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:49:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:52:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:54:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:55:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:56:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:56:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:56:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:59:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 11:59:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 12:01:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 12:01:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 12:02:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 12:03:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:05:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:07:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:08:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:09:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:09:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:09:54 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:10:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:14:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:15:09 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:15:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:17:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:17:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:18:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:18:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:22:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:22:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (101)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:23:53 [error] [php] Undefined variable: tables (/var/www/html/yii/blog/protected/modules/setup/views/default/index.php:18)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(869): DefaultController->renderFile()
+#1 /var/www/html/yii/framework/web/CController.php(782): DefaultController->renderPartial()
+#2 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(83): DefaultController->render()
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#6 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#7 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#8 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/views/default/index.php (18)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (83)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 13:23:53 [error] [php] Undefined variable: tables (/var/www/html/yii/blog/protected/modules/setup/views/default/index.php:18)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(869): DefaultController->renderFile()
+#1 /var/www/html/yii/framework/web/CController.php(782): DefaultController->renderPartial()
+#2 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(83): DefaultController->render()
+#3 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#4 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#6 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#7 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#8 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/views/default/index.php (18)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (83)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 14:07:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /var/www/html/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/html/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/html/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/html/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(14): CModule->__get('db')
+#5 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(98): Setup->__construct()
+#6 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionTable()
+#7 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('table')
+#11 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/default/t...')
+#12 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/setup/default/table
+---
+2015/10/07 14:11:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (102)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 14:11:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'roots'@'localhost' (using password: YES)' in /var/www/html/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/html/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/html/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/html/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(82): CModule->__get('db')
+#5 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#6 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#10 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#11 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/setup/
+---
+2015/10/07 14:14:37 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'roots'@'localhost' (using password: YES)' in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:82
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(82): PDO->__construct('mysql:host=loca...', 'roots', 'abcd1234')
+#1 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#2 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup')
+#7 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/setup/
+---
+2015/10/07 14:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/setup/default/table".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/setup/def...')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/setup/setup/default/table
+---
+2015/10/07 14:19:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'roots'@'localhost' (using password: YES)' in /var/www/html/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/html/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/html/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/html/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(14): CModule->__get('db')
+#5 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(104): Setup->__construct()
+#6 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionTable()
+#7 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('table')
+#11 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/default/t...')
+#12 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/setup/default/table
+---
+2015/10/07 17:01:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /var/www/html/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/html/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/html/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/html/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(14): CModule->__get('db')
+#5 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(112): Setup->__construct()
+#6 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionTable()
+#7 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('table')
+#11 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/default/t...')
+#12 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/setup/default/table
+HTTP_REFERER=http://localhost/yii/setup
+---
+2015/10/07 17:05:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /var/www/html/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/html/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/html/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/html/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/html/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/html/yii/blog/protected/modules/setup/models/Setup.php(14): CModule->__get('db')
+#5 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(116): Setup->__construct()
+#6 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionTable()
+#7 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/html/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/html/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/html/yii/framework/web/CWebApplication.php(282): CController->run('table')
+#11 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/default/t...')
+#12 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/setup/default/table
+HTTP_REFERER=http://localhost/yii/setup
+---
+2015/10/07 17:16:37 [error] [php] Undefined index: class (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:96)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (96)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:17:10 [error] [php] Undefined index: class (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:96)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (96)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:18:31 [error] [php] Undefined index: class (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:97)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (97)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:20:56 [error] [php] Undefined index: class (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:99)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (99)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:22:07 [error] [php] Undefined index: class (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:99)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (99)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:23:23 [error] [php] Undefined index: class (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:99)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (99)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:23:57 [error] [php] Undefined index: password (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:100)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (100)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:26:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (130)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:26:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (130)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:26:45 [error] [php] Undefined index: connectionString (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:91)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (91)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:26:45 [error] [php] Undefined index: connectionString (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:91)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (91)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:26:50 [error] [php] Undefined index: connectionString (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:91)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (91)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:27:22 [error] [php] Undefined index: connectionString (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:91)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (91)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:29:40 [error] [php] Undefined index: connectionString (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:91)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (91)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/07 17:54:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (90)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (131)
+in /var/www/html/yii/blog/index.php (13)

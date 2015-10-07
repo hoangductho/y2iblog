@@ -85,7 +85,12 @@ class Setup extends CDbCommand
      * @return  bool
      */
     public function exist($name){
-        $exist = $this->_db->schema->getTable($name);
-        return !empty($exist);
+//        $exist = $this->_db->schema->getTable($name);
+        try {
+            $exist = $this->_db->schema->getTable($name);
+            return !empty($exist);
+        } catch (Exception $ex) {
+            return FALSE;
+        }
     }
 }

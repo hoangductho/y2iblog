@@ -8,7 +8,7 @@
 return array(
         'timeZone' => 'Asia/Ho_Chi_Minh',
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'Blog App',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -69,7 +69,7 @@ return array(
 					'levels'=>'error, warning',
 				),
 				// uncomment the following to show log messages on web pages
-				
+			
 				array(
 					'class'=>'CWebLogRoute',
 				),

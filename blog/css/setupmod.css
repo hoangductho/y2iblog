@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 7, 2015, 10:56:33 AM
+    Author     : thohoang
+*/
+
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
+abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, 
+article, aside, dialog, figure, footer, header, hgroup, nav, section, input {
+    box-sizing: border-box;
+}
+
+#setup-page {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    text-align: center;
+    color: #4F5B93;
+    background-color: #fff;
+}
+
+#setup-header {
+    font-size: 2em;
+}
+
+#setup-content {
+    display: inline-block;
+    border: 1px #4F5B93 solid;
+    width: 300px;
+    padding: 15px;
+    margin: 15px 0;
+
+}
+
+.errmsg {
+    color: red;
+}
+
+
+.setup-form > label {
+    font-size: 1.75em;
+}
+
+.setup-list-table {
+    text-align: left;
+    margin: 15px 0;
+}
+
+.setup-form-section {
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+.setup-form-section .setup-section-label {
+    display: block;
+    font-weight: bold;
+}
+
+.setup-form-section .setup-section-data {
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+.setup-form-section .setup-section-data input {
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    height: 24px;
+    overflow: hidden;
+    padding: 0 7px;
+}

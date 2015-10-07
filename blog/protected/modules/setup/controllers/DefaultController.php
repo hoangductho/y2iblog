@@ -2,6 +2,16 @@
 
 final class DefaultController extends Controller {
 
+    /**
+     * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
+     * using two-column layout. See 'protected/views/layouts/column2.php'.
+     */
+    public $layout = '/layouts/setup';
+
+    public function __construct($id, $module = null) {
+        parent::__construct($id, $module);
+    }
+
     // list tables will be create
     private $_tables = array();
 
@@ -69,11 +79,41 @@ final class DefaultController extends Controller {
     public function actionIndex() {
         $config = Yii::app()->getComponents(false);
         $dbconnect = $config['db'];
-        if (empty($dbconnect['connectionString']) || empty($dbconnect['username'])) {
-            $this->render('index');
-        } else {
-            $this->redirect('setup/default/table');
+        $connectError = false;
+
+        if (!empty($_POST['connectionString']) && !empty($_POST['username'])) {
+            foreach ($dbconnect as $key => $value) {
+                $dbconnect[$key] = isset($_POST[$key]) ? $_POST[$key] : $dbconnect[$key];
+            }
         }
+
+        if (!empty($dbconnect['connectionString']) && !empty($dbconnect['username']) && !$connectError) {
+            try {
+                $pdo = new PDO($dbconnect['connectionString'], $dbconnect['username'], $dbconnect['password']);
+
+                $path = Yii::app()->basePath . '/config/database.php';
+                $file = file_get_contents($path);
+                $change = false;
+
+                foreach ($dbconnect as $key => $value) {
+                    if ($config['db'][$key] !== $value) {
+                        $file = str_replace($config['db'][$key], $value, $file);
+                        $change = true;
+                    }
+                }
+
+                if ($change) {
+                    file_put_contents($path, $file);
+                }
+                
+                $this->redirect('setup/default/table');
+            } catch (Exception $ex) {
+                $connectError = TRUE;
+                $dbconnect['errmsg'] = $ex->getMessage();
+            }
+        }
+
+        $this->render('index', $dbconnect);
     }
 
     /**
@@ -94,12 +134,14 @@ final class DefaultController extends Controller {
 
         if ($exist) {
             $this->redirect('account');
-        }
+        } else {
+            if (isset($_POST['createTable']) && $_POST['createTable']) {
+                $create = $model->create($this->_listTable());
+                $this->redirect('account');
+            }
 
-        if (isset($_POST['Setup']) && $_POST['Setup']) {
-            $create = $model->create($this->_listTable());
+            $this->render('table', array('tables' => array_keys($this->_listTable())));
         }
-        $this->render('index');
     }
 
     /**
