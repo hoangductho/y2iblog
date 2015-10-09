@@ -41,7 +41,7 @@ final class DefaultController extends Controller {
         // table account
         $tables['account'] = array(
             '_id' => 'int NOT NULL AUTO_INCREMENT',
-            'username' => 'varchar(32) NOT NULL UNIQUE',
+            'email' => 'varchar(64) NOT NULL UNIQUE',
             'password' => 'char(64) NOT NULL',
             'status' => "ENUM('pending','actived','deactived','banned','blocked') DEFAULT 'pending'",
             'created' => 'TIMESTAMP DEFAULT CURRENT_TIMESTAMP',
@@ -53,12 +53,13 @@ final class DefaultController extends Controller {
             '_id' => 'int NOT NULL AUTO_INCREMENT',
             'rolename' => 'varchar(16) NOT NULL UNIQUE',
             'description' => 'TINYTEXT',
+            'family' => 'TINYTEXT',
             'created' => 'TIMESTAMP DEFAULT CURRENT_TIMESTAMP',
             'CONSTRAINT rid' => 'PRIMARY KEY (_id)'
         );
 
         //table user_role
-        $tables['user_role'] = array(
+        $tables['account_role'] = array(
             'aid' => 'int NOT NULL',
             'rid' => 'int NOT NULL',
             'created' => 'TIMESTAMP DEFAULT CURRENT_TIMESTAMP',
@@ -68,6 +69,31 @@ final class DefaultController extends Controller {
         );
 
         return $tables;
+    }
+
+    /**
+     * List role origin
+     */
+    private function _originRole() {
+        $role['root'] = array(
+            'rolename' => 'root',
+            'description' => 'root of all roles',
+            'family' => '0'
+        );
+
+        $role['admin'] = array(
+            'rolename' => 'admin',
+            'description' => 'role of administrantors',
+            'family' => '0.1'
+        );
+
+        $role['member'] = array(
+            'rolename' => 'member',
+            'description' => 'All of members\'s roles',
+            'family' => '0.1.2'
+        );
+
+        return $role;
     }
 
     /**
@@ -105,8 +131,9 @@ final class DefaultController extends Controller {
                 if ($change) {
                     file_put_contents($path, $file);
                 }
-                
-                $this->redirect('setup/default/table');
+
+//                $this->redirect('setup/default/table');
+                $this->redirect($this->createTable());
             } catch (Exception $ex) {
                 $connectError = TRUE;
                 $dbconnect['errmsg'] = $ex->getMessage();
@@ -122,7 +149,7 @@ final class DefaultController extends Controller {
      * If tables not existed, this will be create
      * Else redirect to create root account page
      */
-    public function actionTable() {
+    public function createTable() {
         $tables = $this->_listTable();
         $exist = true;
         $model = new Setup;
@@ -133,11 +160,11 @@ final class DefaultController extends Controller {
         }
 
         if ($exist) {
-            $this->redirect('account');
+            $this->redirect($this->createAccount());
         } else {
             if (isset($_POST['createTable']) && $_POST['createTable']) {
                 $create = $model->create($this->_listTable());
-                $this->redirect('account');
+                $this->redirect($this->createAccount());
             }
 
             $this->render('table', array('tables' => array_keys($this->_listTable())));
@@ -150,9 +177,87 @@ final class DefaultController extends Controller {
      * If root account not existed, this feature will be call to create\
      * Else redirect to login feature
      */
-    public function actionAccount() {
-        $config = Yii::app()->getComponents(false);
-        var_dump($config['db']);
+    public function createAccount() {
+        $data = array();
+        $root = Account::model()->findByPk(1);
+        if (empty($root)) {
+            $root = Account::model()->findByPk(1);
+            if (isset($_POST['Account'])) {
+                $_POST['Account']['password'] = md5($_POST['Account']['password']);
+                $_POST['Account']['cfpassword'] = md5($_POST['Account']['cfpassword']);
+                $_POST['Account']['status'] = 'actived';
+                $account = new Account('account');
+                $account->attributes = $_POST['Account'];
+                if ($account->validate()) {
+                    try {
+                        if ($account->save()) {
+                            $this->redirect($this->createRoleOrigin());
+                        }
+                    } catch (Exception $ex) {
+                        $data['errmsg'] = $ex->getMessage();
+                    }
+                } else {
+                    $data['errmsg'] = 'Data input incorrect';
+                }
+                $data['email'] = $_POST['Account']['email'];
+            }
+        } else {
+            $this->redirect($this->createRoleOrigin());
+        }
+
+        $this->render('account', $data);
+    }
+
+    /**
+     * Create Role root - Original Role for System
+     * 
+     * Role name: root
+     * Create automatic: Yes
+     */
+    public function createRoleOrigin() {
+        $root = Role::model()->findByPk(1);
+        if (empty($root)) {
+            $listRole = $this->_originRole();
+            $data = array();
+            try {
+                foreach ($listRole as $value) {
+                    $role = new Role('setup');
+                    $role->setAttributes($value);
+                    $role->save();
+                }
+                $this->redirect($this->addRootOrigin());
+            } catch (Exception $ex) {
+                $data['roles'] = array_keys($listRole);
+                $data['errmsg'] = $ex->getMessage();
+            }
+
+            $this->render('role', $data);
+        } else {
+            $this->redirect($this->addRootOrigin());
+        }
+    }
+
+    /**
+     * Add Role for super user
+     * 
+     * Add user have id = 1 to role's id = 1
+     */
+    public function addRootOrigin() {
+        $rootOrigin = array('aid' => 1, 'rid' => 1);
+        $origin = Origin::model()->findByPk($rootOrigin);
+        if (empty($origin)) {
+            $add = new Origin();
+            $add->attributes = $rootOrigin;
+            try {
+                $add->save();
+                $this->redirect('/admin');
+            } catch (Exception $ex) {
+                $data['errmsg'] = $ex->getMessage();
+                $this->render('origin', $data);
+            }
+        } else {
+            $this->redirect('/admin');
+        }
     }
 
 }

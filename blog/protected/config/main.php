@@ -9,6 +9,8 @@ return array(
         'timeZone' => 'Asia/Ho_Chi_Minh',
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Blog App',
+        // add this line and replace with correct controller/action
+        'defaultController' => 'setup',
 
 	// preloading 'log' component
 	'preload'=>array('log'),

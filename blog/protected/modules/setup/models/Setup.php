@@ -70,7 +70,6 @@ class Setup extends CDbCommand
                 $create[] = $this->_create_table($name, $fields);
             }
         } catch (Exception $ex) {
-//            var_dump($ex);
             die($ex->errorInfo[2]);
         }
         
@@ -92,5 +91,17 @@ class Setup extends CDbCommand
         } catch (Exception $ex) {
             return FALSE;
         }
+    }
+    
+    /**
+     * Returns the static model of the specified AR class.
+     * Please note that you should have this exact method in all your CActiveRecord descendants!
+     * @param string $className active record class name.
+     * @return User the static model class
+     */
+    public function execute($query) {
+        $command = $this->_db->createCommand($query);
+        
+        $alter = $command->execute();
     }
 }
