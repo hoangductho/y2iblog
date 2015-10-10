@@ -3143,3 +3143,505 @@ in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.
 in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (226)
 in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (205)
 in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (163)
+2015/10/10 09:01:31 [warning] [application] Failed to set unsafe attribute "description" of "Role".
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (225)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (205)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (163)
+2015/10/10 09:01:31 [warning] [application] Failed to set unsafe attribute "description" of "Role".
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (225)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (205)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (163)
+2015/10/10 09:01:31 [warning] [application] Failed to set unsafe attribute "description" of "Role".
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (225)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (205)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (163)
+2015/10/10 09:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 09:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://y2i.com/admin
+---
+2015/10/10 09:44:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 09:44:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/gii".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/setup/gii
+---
+2015/10/10 09:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/gii
+---
+2015/10/10 09:47:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/gii
+---
+2015/10/10 10:29:14 [error] [php] Undefined variable: item (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:107)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (107)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/10 10:29:41 [error] [php] A non well formed numeric value encountered (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:107)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (107)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/10 10:33:30 [error] [php] date() expects at least 1 parameter, 0 given (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:107)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (107)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/10 10:33:41 [error] [php] date() expects at least 1 parameter, 0 given (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:108)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (108)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/10 10:34:07 [error] [php] date() expects at least 1 parameter, 0 given (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:108)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (108)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/10 10:35:40 [error] [php] A non well formed numeric value encountered (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:107)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (107)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/10 10:36:22 [error] [php] date() expects at least 1 parameter, 0 given (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:107)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (107)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/10 11:02:02 [error] [php] Undefined variable: format (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:110)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (110)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/10 11:02:13 [error] [php] Undefined variable: format (/var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:111)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#1 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#2 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (111)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/10 11:26:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 11:29:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 11:30:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/gii".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/setup/gii
+---
+2015/10/10 11:30:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gii
+---
+2015/10/10 11:30:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/gii
+---
+2015/10/10 11:46:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 11:54:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 11:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 11:56:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 11:56:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 11:57:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 12:02:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 13:14:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 13:18:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 13:20:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 13:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gii
+---
+2015/10/10 13:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default/gii".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('default/gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/default/gii
+---
+2015/10/10 13:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/gii
+---
+2015/10/10 13:22:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/gii".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/setup/gii
+---
+2015/10/10 13:22:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 13:23:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 13:23:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 14:01:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 14:06:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 14:06:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 14:07:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (89)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (157)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (135)
+2015/10/10 14:08:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (89)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (157)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (135)
+2015/10/10 14:08:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (89)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (157)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (135)
+2015/10/10 14:08:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (89)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (157)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (135)
+2015/10/10 14:08:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (89)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (157)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (135)
+2015/10/10 14:10:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (89)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (157)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (135)
+2015/10/10 14:35:04 [error] [php] Missing argument 1 for CModule::setComponent(), called in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php on line 134 and defined (/var/www/html/yii/framework/base/CModule.php:414)
+Stack trace:
+#0 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#2 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#3 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#4 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (134)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/10 14:36:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (89)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (158)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (136)
+2015/10/10 14:36:59 [error] [php] Cannot modify header information - headers already sent by (output started at /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php:135) (/var/www/html/yii/framework/web/CHttpRequest.php:860)
+Stack trace:
+#0 /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php(136): DefaultController->redirect()
+#1 /var/www/html/yii/framework/web/actions/CInlineAction.php(49): DefaultController->actionIndex()
+#2 /var/www/html/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/yii/framework/web/CController.php(286): DefaultController->runAction()
+#4 /var/www/html/yii/framework/web/CController.php(265): DefaultController->runActionWithFilters()
+#5 /var/www/html/yii/framework/web/CWebApplication.php(282): DefaultController->run()
+#6 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /var/www/html/yii/blog/index.php(13): CWebApplication->run()
+REQUEST_URI=/setup
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (136)
+in /var/www/html/yii/blog/index.php (13)
+2015/10/10 14:40:11 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (89)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (158)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (136)
+2015/10/10 14:40:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testy2i.account' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `account`.
+in /var/www/html/yii/blog/protected/modules/setup/models/Setup.php (89)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (158)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (136)
+2015/10/10 14:40:42 [warning] [application] Failed to set unsafe attribute "status" of "Account".
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (190)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (163)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (136)
+2015/10/10 14:40:42 [warning] [application] Failed to set unsafe attribute "description" of "Role".
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (225)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (194)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (163)
+2015/10/10 14:40:42 [warning] [application] Failed to set unsafe attribute "description" of "Role".
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (225)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (194)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (163)
+2015/10/10 14:40:42 [warning] [application] Failed to set unsafe attribute "description" of "Role".
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (225)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (194)
+in /var/www/html/yii/blog/protected/modules/setup/controllers/DefaultController.php (163)
+2015/10/10 14:40:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+HTTP_REFERER=http://y2i.com/setup
+---
+2015/10/10 14:40:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gii
+---
+2015/10/10 14:47:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 14:47:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setup/gii".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('setup/gii')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/setup/gii
+---
+2015/10/10 14:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 14:50:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2015/10/10 14:51:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /var/www/html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /var/www/html/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/html/yii/blog/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+HTTP_REFERER=http://y2i.com/setup
+---

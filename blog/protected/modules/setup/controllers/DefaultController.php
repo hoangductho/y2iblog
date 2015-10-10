@@ -112,11 +112,11 @@ final class DefaultController extends Controller {
                 $dbconnect[$key] = isset($_POST[$key]) ? $_POST[$key] : $dbconnect[$key];
             }
         }
-
         if (!empty($dbconnect['connectionString']) && !empty($dbconnect['username']) && !$connectError) {
             try {
+                
                 $pdo = new PDO($dbconnect['connectionString'], $dbconnect['username'], $dbconnect['password']);
-
+                
                 $path = Yii::app()->basePath . '/config/database.php';
                 $file = file_get_contents($path);
                 $change = false;
@@ -130,16 +130,16 @@ final class DefaultController extends Controller {
 
                 if ($change) {
                     file_put_contents($path, $file);
+                    Yii::app()->setComponent('db', $dbconnect);
                 }
-
-//                $this->redirect('setup/default/table');
+                
                 $this->redirect($this->createTable());
             } catch (Exception $ex) {
                 $connectError = TRUE;
                 $dbconnect['errmsg'] = $ex->getMessage();
             }
         }
-
+        
         $this->render('index', $dbconnect);
     }
 

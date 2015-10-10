@@ -5,7 +5,7 @@
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
-return array(
+$config = array(
         'timeZone' => 'Asia/Ho_Chi_Minh',
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Blog App',
@@ -20,17 +20,17 @@ return array(
 		'application.models.*',
 		'application.components.*',
 	),
-
+        
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 		
-		'gii'=>array(
-			'class'=>'system.gii.GiiModule',
-			'password'=>'Enter Your Password Here',
-			// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array('127.0.0.1','::1'),
-		),
-                'setup',
+//		'gii'=>array(
+//			'class'=>'system.gii.GiiModule',
+//			'password'=>'Enter Your Password Here',
+//			// If removed, Gii defaults to localhost only. Edit carefully to taste.
+//			'ipFilters'=>array('127.0.0.1','::1'),
+//		),
+//                'setup',
 	
 	),
 
@@ -88,3 +88,7 @@ return array(
 		'adminEmail'=>'hoangductho.3690@gmail.com',
 	),
 );
+
+$config = CMap::mergeArray($config, require(dirname(__FILE__) . '/modules.php'));
+
+return $config;

@@ -8,6 +8,6 @@ return array(
 	'connectionString' => 'mysql:host=localhost;dbname=testy2i',
 	'emulatePrepare' => true,
 	'username' => 'root',
-	'password' => 'abcd1234',
+	'password' => 'abcd12345',
 	'charset' => 'utf8',
 );
